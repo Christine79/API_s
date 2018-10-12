@@ -10,7 +10,7 @@ search_bar.send_keys(:enter)
 #submit_button.click
 
 # nous allons dire à notre programme d'attendre un peu avant de continuer,
-# sinon il va faire ceci avant que la page n'ait le temps de se charger
+# sinon  il va faire ceci avant que la page n'ait le temps de se charger
 browser.driver.manage.timeouts.implicit_wait = 3
 
 
